@@ -41,13 +41,13 @@ window.addEventListener("load", () => {
     } else if (window.innerHeight >= 800 && window.innerHeight < 880) {
       return 8.4 - 0.632;
     } else if (window.innerHeight >= 880 && window.innerHeight < 980) {
-      return 8.2 - 0.632;
+      return 8.25 - 0.632;
     } else if (window.innerHeight >= 980 && window.innerHeight < 1050) {
-      return 8.12 - 0.632;
+      return 8.17 - 0.632;
     } else if (window.innerHeight >= 1050 && window.innerHeight < 1100) {
-      return 8.01 - 0.632;
+      return 8.06 - 0.632;
     } else if (window.innerHeight >= 1100) {
-      return 8.0 - 0.632;
+      return 8.05 - 0.632;
     }
   };
   const calculateHeightMultiplierMobile = () => {
