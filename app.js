@@ -22,32 +22,32 @@ window.addEventListener("load", () => {
   const calculateHeightMultiplier = () => {
     console.log(window.innerHeight);
     if (window.innerHeight < 400) {
-      return 10 - 0.64;
+      return 10 - 0.63;
     } else if (window.innerHeight >= 400 && window.innerHeight < 450) {
-      return 9.85 - 0.64;
+      return 9.85 - 0.63;
     }
     if (window.innerHeight < 500 && window.innerHeight >= 450) {
-      return 9.4 - 0.64;
+      return 9.4 - 0.63;
     } else if (window.innerHeight < 550 && window.innerHeight >= 500) {
-      return 9.0 - 0.64;
+      return 9.0 - 0.63;
     } else if (window.innerHeight >= 550 && window.innerHeight < 600) {
-      return 8.6 - 0.64;
+      return 8.6 - 0.63;
     } else if (window.innerHeight >= 600 && window.innerHeight < 650) {
-      return 8.55 - 0.64;
+      return 8.55 - 0.63;
     } else if (window.innerHeight >= 650 && window.innerHeight < 750) {
-      return 8.35 - 0.64;
+      return 8.35 - 0.63;
     } else if (window.innerHeight >= 750 && window.innerHeight < 800) {
-      return 8.25 - 0.64;
+      return 8.25 - 0.63;
     } else if (window.innerHeight >= 800 && window.innerHeight < 880) {
-      return 8.4 - 0.64;
+      return 8.4 - 0.63;
     } else if (window.innerHeight >= 880 && window.innerHeight < 980) {
-      return 8.2 - 0.64;
+      return 8.2 - 0.63;
     } else if (window.innerHeight >= 980 && window.innerHeight < 1050) {
-      return 8.12 - 0.64;
+      return 8.12 - 0.63;
     } else if (window.innerHeight >= 1050 && window.innerHeight < 1100) {
-      return 8.01 - 0.64;
+      return 8.01 - 0.63;
     } else if (window.innerHeight >= 1100) {
-      return 8.0 - 0.64;
+      return 8.0 - 0.63;
     }
   };
   const calculateHeightMultiplierMobile = () => {
