@@ -45,7 +45,7 @@ window.addEventListener("load", () => {
   } else if (window.innerHeight >= 980 && window.innerHeight < 1050) {
     return 8.2 - 0.43;
   } else if (window.innerHeight >= 1050 && window.innerHeight < 1100) {
-    return 8.06 - 0.43;
+    return 8.12 - 0.43;
   } else if (window.innerHeight >= 1100) {
     return 8.05 - 0.43;
   }
