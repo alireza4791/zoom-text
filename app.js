@@ -33,13 +33,13 @@ window.addEventListener("load", () => {
   } else if (window.innerHeight >= 550 && window.innerHeight < 600) {
     return 8.6 - 0.43;
   } else if (window.innerHeight >= 600 && window.innerHeight < 650) {
-    return 8.55 - 0.43;
+    return 8.49 - 0.43;
   } else if (window.innerHeight >= 650 && window.innerHeight < 750) {
-    return 8.55 - 0.43;
+    return 8.49 - 0.43;
   } else if (window.innerHeight >= 750 && window.innerHeight < 800) {
     return 8.25 - 0.43;
   } else if (window.innerHeight >= 800 && window.innerHeight < 880) {
-    return 8.5 - 0.43;
+    return 8.44 - 0.43;
   } else if (window.innerHeight >= 880 && window.innerHeight < 980) {
     return 8.35 - 0.43;
   } else if (window.innerHeight >= 980 && window.innerHeight < 1050) {
