@@ -26,29 +26,29 @@ window.addEventListener("load", () => {
     } else if (window.innerHeight >= 400 && window.innerHeight < 450) {
       return 9.85 - 0.632;
     }
-    if (window.innerHeight < 500 && window.innerHeight >= 450) {
-      return 9.4 - 0.58;
-    } else if (window.innerHeight < 550 && window.innerHeight >= 500) {
-      return 9.0 - 0.58;
-    } else if (window.innerHeight >= 550 && window.innerHeight < 600) {
-      return 8.6 - 0.58;
-    } else if (window.innerHeight >= 600 && window.innerHeight < 650) {
-      return 8.55 - 0.58;
-    } else if (window.innerHeight >= 650 && window.innerHeight < 750) {
-      return 8.62 - 0.58;
-    } else if (window.innerHeight >= 750 && window.innerHeight < 800) {
-      return 8.25 - 0.58;
-    } else if (window.innerHeight >= 800 && window.innerHeight < 880) {
-      return 8.55 - 0.58;
-    } else if (window.innerHeight >= 880 && window.innerHeight < 980) {
-      return 8.25 - 0.58;
-    } else if (window.innerHeight >= 980 && window.innerHeight < 1050) {
-      return 8.17 - 0.58;
-    } else if (window.innerHeight >= 1050 && window.innerHeight < 1100) {
-      return 8.06 - 0.58;
-    } else if (window.innerHeight >= 1100) {
-      return 8.05 - 0.58;
-    }
+      if (window.innerHeight < 500 && window.innerHeight >= 450) {
+    return 9.4 - 0.48;
+  } else if (window.innerHeight < 550 && window.innerHeight >= 500) {
+    return 9.0 - 0.48;
+  } else if (window.innerHeight >= 550 && window.innerHeight < 600) {
+    return 8.6 - 0.48;
+  } else if (window.innerHeight >= 600 && window.innerHeight < 650) {
+    return 8.55 - 0.48;
+  } else if (window.innerHeight >= 650 && window.innerHeight < 750) {
+    return 8.62 - 0.48;
+  } else if (window.innerHeight >= 750 && window.innerHeight < 800) {
+    return 8.25 - 0.48;
+  } else if (window.innerHeight >= 800 && window.innerHeight < 880) {
+    return 8.55 - 0.48;
+  } else if (window.innerHeight >= 880 && window.innerHeight < 980) {
+    return 8.25 - 0.48;
+  } else if (window.innerHeight >= 980 && window.innerHeight < 1050) {
+    return 8.17 - 0.48;
+  } else if (window.innerHeight >= 1050 && window.innerHeight < 1100) {
+    return 8.06 - 0.48;
+  } else if (window.innerHeight >= 1100) {
+    return 8.05 - 0.48;
+  }
   };
   const calculateHeightMultiplierMobile = () => {
     if (window.innerHeight < 400) {
