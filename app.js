@@ -33,7 +33,7 @@ window.addEventListener("load", () => {
   } else if (window.innerHeight >= 550 && window.innerHeight < 600) {
     return 8.6 - 0.43;
   } else if (window.innerHeight >= 600 && window.innerHeight < 650) {
-    return 8.53 - 0.43;
+    return 8.55 - 0.43;
   } else if (window.innerHeight >= 650 && window.innerHeight < 750) {
     return 8.49 - 0.43;
   } else if (window.innerHeight >= 750 && window.innerHeight < 800) {
